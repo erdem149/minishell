@@ -1,2 +1,2 @@
 all:
-	@gcc ./src/main.c -lreadline -o erdemshell
+	@gcc ./src/main.c  ./src/commands/* ./src/libft.a -lreadline -o erdemshell
